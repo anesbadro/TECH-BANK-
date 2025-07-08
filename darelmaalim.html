@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="eng">
 
 <head>
     <meta charset="UTF-8">
@@ -20,7 +20,6 @@
             overflow-x: hidden;
         }
 
-        /* HERO SECTION */
         .hero-section {
             position: relative;
             width: 100%;
@@ -75,7 +74,7 @@
             background-color: #fac14b;
         }
 
-        /* NAVIGATION LINKS */
+       
         .top-link1,
         .top-link2,
         .top-link3,
@@ -119,7 +118,6 @@
             color: #FAC14B;
         }
 
-        /* CONTENT SECTIONS */
         .second-section,
         .third-section {
             display: flex;
@@ -166,12 +164,11 @@
             line-height: 1.6;
         }
 
-        /* Reverse layout for alternating section */
         .reverse-layout {
             flex-direction: row-reverse;
         }
 
-        /* Responsive improvement */
+    
         @media (max-width: 768px) {
 
             .top-link1,
@@ -190,11 +187,11 @@
             }
         }
         .fourth-section {
-  background-image: url('pic/25e4ee13-aab6-494b-84a1-bf6bc2d41998.jpg.png'); /* replace with your actual image path */
+  background-image: url('pic/25e4ee13-aab6-494b-84a1-bf6bc2d41998.jpg.png'); 
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 100vh; /* adjust height as needed */
+  height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +200,7 @@
 
 .overlay-text {
   color: white;
-  background-color: rgba(0, 0, 0, 0.155); /* semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.155); 
   padding: 30px;
   border-radius: 10px;
   max-width: 600px;
@@ -216,21 +213,21 @@
 
 <body>
 
-    <!-- Hero Section with Background Video -->
+  
     <div class="hero-section">
         <video autoplay muted loop playsinline class="hero-video">
             <source src="video/20857-312437286_small.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
 
-        <!-- Navigation Links -->
+  
         <a href="individual.html" class="top-link1">Individual</a>
         <a href="businnes £ community.html" class="top-link2">Businesses & Community</a>
         <a href="vision.html" class="top-link3">Vision</a>
         <a href="searchbar.html" class="top-link4"><i class="fas fa-search"></i></a>
         <a href="darelmaalim.html" class="top-link5">TECH-BANK</a>
 
-        <!-- Hero Text -->
+       
         <div class="hero-content">
             <h1>TECH-BANK</h1>
             <p>Welcome to the world of financial innovation</p>
@@ -238,7 +235,7 @@
         </div>
     </div>
 
-    <!-- SECURITY SECTION -->
+   
     <div class="second-section" data-aos="fade-up">
         <div class="second-image">
             <img src="pic/against-light-7572922_1280.jpg" alt="Security image">
@@ -251,7 +248,7 @@
         </div>
     </div>
 
-    <!-- INNOVATION SECTION -->
+    
     <div class="third-section reverse-layout" data-aos="fade-left">
         <div class="third-text">
             <h2>INNOVATION</h2>
@@ -264,7 +261,7 @@
         </div>
     </div>
 
-    <!-- AOS Animation Library JS -->
+ 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
